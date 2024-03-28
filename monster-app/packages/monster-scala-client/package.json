@@ -1,0 +1,19 @@
+{
+  "name": "@crate-monster/monster-scala-client",
+  "version": "0.1.0",
+  "description": "crate.monster API cross-platform scala client",
+  "private": true,
+  "license": "CLOSED",
+  "type": "module",
+  "packageManager": "yarn@4.0.2",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@scala-js/vite-plugin-scalajs": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=21.0.0"
+  }
+}

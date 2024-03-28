@@ -1,0 +1,54 @@
+{
+  "include": [
+    "packages/monster-i18n/src/**/*.ts",
+    "packages/monster-remix-app/src/**/*.ts",
+    "packages/monster-scala-client/src/**/*.ts",
+    "packages/monster-uikit/src/**/*.ts"
+  ],
+  "exclude": [],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node",
+    "transpileOnly": true
+  },
+  "compilerOptions": {
+    "lib": [
+      "DOM", "DOM.Iterable", "ES2022"
+    ],
+    "baseUrl": "./",
+    "outDir": "build",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "emitDecoratorMetadata": false,
+    "declaration": false,
+    "declarationMap": false,
+    "paths": {
+      "i18n/*": [
+        "packages/monster-i18n/src/"
+      ],
+      "app/*": [
+        "packages/monster-remix-app/src/",
+      ],
+      "client/*": [
+        "packages/monster-scala-client/src/",
+      ],
+      "uikit/*": [
+        "packages/monster-uikit/src/"
+      ],
+    },
+
+  }
+}

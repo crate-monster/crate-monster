@@ -1,0 +1,67 @@
+# Editors
+.vscode/**
+.vscode
+.idea/**
+.idea
+
+# Scala
+dist/*
+target/
+lib_managed/
+src_managed/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# Scala / Editors
+.sbt/**
+.sbt/
+.bsp/**
+.bsp/
+.bloop/**
+.bloop/
+.metals/**
+.metals/
+
+# TypeScript
+.cache
+.wrangler
+*.tsbuildinfo
+
+# TypeScript / Yarn
+# we don't use yarn offline-first
+# !.yarn/cache
+# !.yarn/sdks
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# TypeScript / Yarn / PnP
+.pnp
+.pnp.cjs
+.pnp.loader.mjs
+
+# TypeScript / Yarn / Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# TypeScript / Coverage
+coverage/
+
+# TypeScript / Turborepo
+.turbo
+.turbo/**
+
+
+# Misc
+.DS_Store
+*.pem
+*.log
+
+# Misc / Env
+.env
+.env.local
