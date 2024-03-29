@@ -1,7 +1,5 @@
 import MonsterProject.Helpers._
 
-enablePlugins(GitVersioning, AutoVersionPlugin, ConventionalCommits)
-
 ThisBuild / scalaVersion := MonsterProject.scalaVersion
 
 organizationName := "Crate Monster"
